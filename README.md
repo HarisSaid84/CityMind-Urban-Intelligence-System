@@ -10,13 +10,9 @@ emergency routing, and crime risk prediction.
 | Challenge | Algorithm | What it does |
 |---|---|---|
 | City Layout | CSP + Backtracking + AC-3 | Places hospitals, schools, industrial zones on a grid under hard planning rules |
-
 | Road Network | Kruskal's MST + UCS | Builds minimum-cost roads with a guaranteed backup route between Hospital and Depot |
-
 | Ambulance Placement | Genetic Algorithm | Evolves optimal placement of 3 ambulances to minimise worst-case response time |
-
 | Emergency Routing | A* Search | Routes a medical team to rescue civilians, re-routing in real time when roads flood |
-
 | Crime Prediction | K-Means + Decision Tree | Clusters neighbourhoods and predicts High/Medium/Low crime risk, feeding back into routing costs |
 
 ## How to Run
@@ -31,15 +27,10 @@ python main.py
 | Button | Action |
 |---|---|
 | Start / Pause | Run simulation automatically (one step per second) |
-
 | Next Step | Advance one step manually |
-
 | Reset | Start fresh with a new city layout |
-
 | Show Roads | Toggle road network overlay |
-
 | Show Coverage | Toggle ambulance coverage overlay |
-
 | Show Heatmap | Toggle crime risk heatmap |
 
 ## Tech Stack
